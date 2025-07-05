@@ -5,6 +5,18 @@
       "nameProduct": "a",
       "priceProduct": "a",
       "description": "a"
+    },
+    {
+      "id": "10d0",
+      "nameProduct": "",
+      "priceProduct": "oooo",
+      "description": ""
+    },
+    {
+      "id": "4d91",
+      "nameProduct": "a",
+      "priceProduct": "jgjfgf",
+      "description": "rfgrfgfrg"
     }
   ]
 }
