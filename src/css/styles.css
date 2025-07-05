@@ -1,8 +1,4 @@
 
-* {
-    padding: 0%;
-
-}
 
 body {
     background: rgb(227, 227, 235);
@@ -12,7 +8,7 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(226, 188, 248);
     padding: 1rem;
-
+    margin-bottom: 3%;
 }
 
 main {
@@ -22,8 +18,6 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  flex-grow: 1;
 }
 
 
@@ -49,8 +43,6 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 1rem;
-    column-gap: 1rem;
     
     border-radius: 5px;
     box-shadow: 0px 0px 18px rgb(153, 153, 233);
@@ -60,13 +52,18 @@ main {
     padding: 1rem;
     width: 30rem;
 }
+.card-body {
+    display: flex;
+    flex-direction: column;
+    column-gap: 20%;
+}
 
 .form-inputs {
     border: none;
 
     margin-bottom: 2rem;
     border-radius: 5px;
-    padding: 6%;
+    padding: 4%;
     width: 85%;
 
 }
@@ -81,5 +78,27 @@ main {
 
 .btn:hover {
   color: aliceblue;
-  background-color: rgb(152, 197, 236);
+  background-color: rgb(62, 91, 187);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 2%;
+  margin-top: 5%;
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  header, footer, .products-data {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+  .input {
+    width: 100%;
+  }
 }
