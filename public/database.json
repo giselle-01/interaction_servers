@@ -1,7 +1,22 @@
 {
   "products": [
-    { "name": "Laptop", "price": 1500 },
-    { "name": "Mouse", "price": 25 },
-    { "name": "Teclado", "price": 50 }
+    {
+      "id": "bbba",
+      "nameProduct": "a",
+      "priceProduct": "a",
+      "description": "a"
+    },
+    {
+      "id": "10d0",
+      "nameProduct": "",
+      "priceProduct": "oooo",
+      "description": ""
+    },
+    {
+      "id": "4d91",
+      "nameProduct": "a",
+      "priceProduct": "jgjfgf",
+      "description": "rfgrfgfrg"
+    }
   ]
 }

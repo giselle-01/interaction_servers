@@ -28,8 +28,67 @@
     <title>Interaction Server</title>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <h1>Sistema Interactivo</h1>
+    </header>
+
+    <main>
+      <section>
+        <article class="products-data">
+          <h3>Datos del producto</h3>
+          <form id="form" novalidate>
+
+          <div class="mb-3">
+            <label for="name_product" class="form-titles">Nombre del producto</label>
+            <input type="text" class="form-inputs" id="name_product" placeholder="Escriba el nombre de su producto"
+              required />
+          </div>
+
+          <div class="mb-3">
+            <label for="price_product" class="form-titles">Precio del producto</label>
+            <input type="text" class="form-inputs" id="price_product" placeholder="Escribe el precio de su producto" required />
+          </div>
+
+          <div class="mb-3">
+            <label for="description" class="form-titles">Descripción del producto</label>
+            <input class="form-inputs" id="description" rows="3" placeholder="Escribe la descripción de su producto" required ></input>
+          </div>
+
+          <button class="btn" type="submit" id="btnSave">
+            Guardar
+          </button>
+
+        </form>
+        </div>
+        </article>
+      </section>
+
+      <section>
+        <article class="products-card">
+          <div class="card-body">
+            <h3 class="card-product-name">Nombre del Producto</h3>
+            <p class="card-text">
+
+            <div class="d-flex gap-2">
+              <span class="fw-bold">Precio del Producto</span>
+            </div>
+
+            <div class="d-flex gap-2">
+              <span class="fw-bold">Descripción del Producto</span>
+            </div>
+
+            <div class="d-flex mt-3 gap-2">
+              <button class="btn btn-primary edit">Editar</button>
+              <button class="btn btn-danger delete">Eliminar</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    </main>
+
+    <footer>
+      <h3>© 2025 giselle-01. All rights reserved</h3>
+    </footer>
   </body>
 </html>
